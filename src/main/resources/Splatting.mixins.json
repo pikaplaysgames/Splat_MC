@@ -1,0 +1,11 @@
+{
+	"required": true,
+	"package": "pikaplaysgames.Splatting.mixin",
+	"compatibilityLevel": "JAVA_17",
+	"mixins": [
+		"SplatMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

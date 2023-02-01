@@ -1,0 +1,19 @@
+{
+    "variants": {
+      "facing=north": {
+        "model": "splatoon:block/spawn_point"
+      },
+      "facing=south": {
+        "model": "splatoon:block/spawn_point",
+        "y": 180
+      },
+      "facing=west": {
+        "model": "splatoon:block/spawn_point",
+        "y": 270
+      },
+      "facing=east": {
+        "model": "splatoon:block/spawn_point",
+        "y": 90
+      }
+    }
+  }

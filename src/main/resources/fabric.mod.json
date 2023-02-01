@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "splatoon",
+	"version": "${version}",
+	"name": "Splatoon",
+	"description": "Description",
+	"authors": [
+		"pikaplaysgames"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"pikaplaysgames.Splatting.Splatoon"
+		],
+		"fabric-datagen": [
+			"pikaplaysgames.Splatting.SplatoonDataGenerator"
+		],
+		"client": [
+			"pikaplaysgames.Splatting.SplatoonClient"
+		]
+	},
+	"mixins": [
+		"Splatting.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.14.13",
+		"minecraft": "~1.19.3",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
